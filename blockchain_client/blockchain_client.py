@@ -17,7 +17,7 @@ class Transaction:
     def to_dict(self):
         return OrderedDict({
             'sender_public_key': self.sender_public_key,
-            'sender_private_key': self.sender_private_key,
+            #'sender_private_key': self.sender_private_key,
             'recipient_public_key': self.recipient_public_key,
             'amount': self.amount,
         })
